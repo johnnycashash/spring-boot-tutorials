@@ -21,10 +21,8 @@ public class DependencyInjectionApplication {
         PropertyInjectionPrint propertyInjectionPrint = (PropertyInjectionPrint) ctx.getBean("propertyInjectionPrint");
         System.out.println(propertyInjectionPrint.printMessage());
 
-
         PropertyInjectionVehicle propertyInjectionVehicle = (PropertyInjectionVehicle) ctx.getBean("propertyInjectionVehicle");
         System.out.println(propertyInjectionVehicle.driveTheVehicle());
-
 
         DriveAndPrintController driveAndPrintController = (DriveAndPrintController) ctx.getBean("driveAndPrintController");
         System.out.println(driveAndPrintController.driveTheVehicle());
