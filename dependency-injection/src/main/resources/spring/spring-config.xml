@@ -10,4 +10,45 @@
                     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
 
     <context:component-scan base-package="org.johnycash.di"/>
+    <bean name="driveAndPrintController" class="org.johnycash.di.controller.DriveAndPrintController">
+        <property name="vehicleService" ref="vehicle" />
+        <property name="truckVehicleService" ref="truckVehicle" />
+        <property name="printService" ref="laserPrint" />
+    </bean>
+
+    <bean name="printFactory" class="org.johnycash.di.qualifier.PrintFactory"/>
+
+    <bean name="inkJetPrint" factory-bean="printFactory" factory-method="getPrint">
+        <constructor-arg value="ink"/>
+    </bean>
+    <bean name="laserPrint" factory-bean="printFactory" factory-method="getPrint">
+        <constructor-arg value="laser"/>
+    </bean>
+
+    <bean name="consolePrint" factory-bean="printFactory" factory-method="getPrint">
+        <constructor-arg value="console"/>
+    </bean>
+
+
+    <bean name="vehicleFactory" class="org.johnycash.di.profile.VehicleFactory"/>
+
+    <bean name="truckVehicle" factory-bean="vehicleFactory" factory-method="getVehicle">
+        <constructor-arg value="truck"/>
+    </bean>
+
+    <beans profile="CycleVehicle">
+        <bean name="vehicle" factory-bean="vehicleFactory" factory-method="getVehicle" primary="true">
+            <constructor-arg value="cycle"/>
+        </bean>
+    </beans>
+    <beans profile="BikeVehicle">
+        <bean name="vehicle" factory-bean="vehicleFactory" factory-method="getVehicle" primary="true">
+            <constructor-arg value="bike"/>
+        </bean>
+    </beans>
+    <beans profile="CarVehicle,default">
+        <bean name="vehicle" factory-bean="vehicleFactory" factory-method="getVehicle" primary="true">
+            <constructor-arg value="car"/>
+        </bean>
+    </beans>
 </beans>

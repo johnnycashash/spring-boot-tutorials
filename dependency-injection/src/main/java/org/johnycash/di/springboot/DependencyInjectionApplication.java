@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ImportResource;
 
-@SpringBootApplication//import resource is used(scanBasePackages = {"org.johnycash.di"})
+@SpringBootApplication
 @ImportResource("classpath:/spring/spring-config.xml")
 public class DependencyInjectionApplication {
 
