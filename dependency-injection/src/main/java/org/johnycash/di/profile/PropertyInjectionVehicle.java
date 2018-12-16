@@ -1,0 +1,14 @@
+package org.johnycash.di.profile;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class PropertyInjectionVehicle {
+    @Autowired
+    private VehicleService vehicleService;
+
+    public String driveTheVehicle() {
+        return vehicleService.drive();
+    }
+}
