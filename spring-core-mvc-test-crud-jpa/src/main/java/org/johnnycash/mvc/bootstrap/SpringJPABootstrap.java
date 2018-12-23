@@ -3,14 +3,14 @@ package org.johnnycash.mvc.bootstrap;
 import org.johnnycash.mvc.domain.Product;
 import org.johnnycash.mvc.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
+import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 
 @Component
-public class SpringJPABootstrap implements ApplicationListener<ContextRefreshedEvent> {
+public class SpringJPABootstrap {
 
     private ProductService productService;
 
@@ -19,12 +19,8 @@ public class SpringJPABootstrap implements ApplicationListener<ContextRefreshedE
         this.productService = productService;
     }
 
-    @Override
-    public void onApplicationEvent(ContextRefreshedEvent event) {
-        loadProducts();
-    }
-
-    public void loadProducts() {
+   @EventListener
+    public void loadProducts(ContextRefreshedEvent contextRefreshedEvent) {
         Product product1 = new Product();
         product1.setId(1);
         product1.setDescription("Product 1");
