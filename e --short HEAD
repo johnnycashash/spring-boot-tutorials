@@ -1,0 +1,318 @@
+[33mcommit 04428a36e99641ac268bf40230ea1832d9953fd7[m
+Author: johnnycashash <jAG@N1993>
+Date:   Mon Dec 17 01:12:23 2018 +0530
+
+    removed unnessary files
+
+[1mdiff --git a/MyWebApplication/.idea/codeStyles/Project.xml b/MyWebApplication/.idea/codeStyles/Project.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 6d799a0..0000000[m
+[1m--- a/MyWebApplication/.idea/codeStyles/Project.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,52 +0,0 @@[m
+[31m-<component name="ProjectCodeStyleConfiguration">[m
+[31m-  <code_scheme name="Project" version="173">[m
+[31m-    <DBN-PSQL>[m
+[31m-      <case-options enabled="false">[m
+[31m-        <option name="KEYWORD_CASE" value="lower" />[m
+[31m-        <option name="FUNCTION_CASE" value="lower" />[m
+[31m-        <option name="PARAMETER_CASE" value="lower" />[m
+[31m-        <option name="DATATYPE_CASE" value="lower" />[m
+[31m-        <option name="OBJECT_CASE" value="preserve" />[m
+[31m-      </case-options>[m
+[31m-      <formatting-settings enabled="false" />[m
+[31m-    </DBN-PSQL>[m
+[31m-    <DBN-SQL>[m
+[31m-      <case-options enabled="false">[m
+[31m-        <option name="KEYWORD_CASE" value="lower" />[m
+[31m-        <option name="FUNCTION_CASE" value="lower" />[m
+[31m-        <option name="PARAMETER_CASE" value="lower" />[m
+[31m-        <option name="DATATYPE_CASE" value="lower" />[m
+[31m-        <option name="OBJECT_CASE" value="preserve" />[m
+[31m-      </case-options>[m
+[31m-      <formatting-settings enabled="false">[m
+[31m-        <option name="STATEMENT_SPACING" value="one_line" />[m
+[31m-        <option name="CLAUSE_CHOP_DOWN" value="chop_down_if_statement_long" />[m
+[31m-        <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />[m
+[31m-      </formatting-settings>[m
+[31m-    </DBN-SQL>[m
+[31m-    <DBN-PSQL>[m
+[31m-      <case-options enabled="false">[m
+[31m-        <option name="KEYWORD_CASE" value="lower" />[m
+[31m-        <option name="FUNCTION_CASE" value="lower" />[m
+[31m-        <option name="PARAMETER_CASE" value="lower" />[m
+[31m-        <option name="DATATYPE_CASE" value="lower" />[m
+[31m-        <option name="OBJECT_CASE" value="preserve" />[m
+[31m-      </case-options>[m
+[31m-      <formatting-settings enabled="false" />[m
+[31m-    </DBN-PSQL>[m
+[31m-    <DBN-SQL>[m
+[31m-      <case-options enabled="false">[m
+[31m-        <option name="KEYWORD_CASE" value="lower" />[m
+[31m-        <option name="FUNCTION_CASE" value="lower" />[m
+[31m-        <option name="PARAMETER_CASE" value="lower" />[m
+[31m-        <option name="DATATYPE_CASE" value="lower" />[m
+[31m-        <option name="OBJECT_CASE" value="preserve" />[m
+[31m-      </case-options>[m
+[31m-      <formatting-settings enabled="false">[m
+[31m-        <option name="STATEMENT_SPACING" value="one_line" />[m
+[31m-        <option name="CLAUSE_CHOP_DOWN" value="chop_down_if_statement_long" />[m
+[31m-        <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />[m
+[31m-      </formatting-settings>[m
+[31m-    </DBN-SQL>[m
+[31m-  </code_scheme>[m
+[31m-</component>[m
+\ No newline at end of file[m
+[1mdiff --git a/MyWebApplication/.idea/compiler.xml b/MyWebApplication/.idea/compiler.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 23ee2e1..0000000[m
+[1m--- a/MyWebApplication/.idea/compiler.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,16 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<project version="4">[m
+[31m-  <component name="CompilerConfiguration">[m
+[31m-    <annotationProcessing>[m
+[31m-      <profile name="Maven default annotation processors profile" enabled="true">[m
+[31m-        <sourceOutputDir name="target/generated-sources/annotations" />[m
+[31m-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />[m
+[31m-        <outputRelativeToContentRoot value="true" />[m
+[31m-        <module name="MyWebApplication" />[m
+[31m-      </profile>[m
+[31m-    </annotationProcessing>[m
+[31m-    <bytecodeTargetLevel>[m
+[31m-      <module name="MyWebApplication" target="1.8" />[m
+[31m-    </bytecodeTargetLevel>[m
+[31m-  </component>[m
+[31m-</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/MyWebApplication/.idea/dbnavigator.xml b/MyWebApplication/.idea/dbnavigator.xml[m
+[1mdeleted file mode 100644[m
+[1mindex b2c7134..0000000[m
+[1m--- a/MyWebApplication/.idea/dbnavigator.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,453 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<project version="4">[m
+[31m-  <component name="DBNavigator.Project.DataEditorManager">[m
+[31m-    <record-view-column-sorting-type value="BY_INDEX" />[m
+[31m-    <value-preview-text-wrapping value="true" />[m
+[31m-    <value-preview-pinned value="false" />[m
+[31m-  </component>[m
+[31m-  <component name="DBNavigator.Project.DataExportManager">[m
+[31m-    <export-instructions>[m
+[31m-      <create-header value="true" />[m
+[31m-      <quote-values-containing-separator value="true" />[m
+[31m-      <quote-all-values value="false" />[m
+[31m-      <value-separator value="" />[m
+[31m-      <file-name value="" />[m
+[31m-      <file-location value="" />[m
+[31m-      <scope value="GLOBAL" />[m
+[31m-      <destination value="FILE" />[m
+[31m-      <format value="EXCEL" />[m
+[31m-      <charset value="windows-1252" />[m
+[31m-    </export-instructions>[m
+[31m-  </component>[m
+[31m-  <component name="DBNavigator.Project.DatabaseBrowserManager">[m
+[31m-    <autoscroll-to-editor value="false" />[m
+[31m-    <autoscroll-from-editor value="true" />[m
+[31m-    <show-object-properties value="true" />[m
+[31m-    <loaded-nodes />[m
+[31m-  </component>[m
+[31m-  <component name="DBNavigator.Project.EditorStateManager">[m
+[31m-    <last-used-providers />[m
+[31m-  </component>[m
+[31m-  <component name="DBNavigator.Project.MethodExecutionManager">[m
+[31m-    <method-browser />[m
+[31m-    <execution-history>[m
+[31m-      <group-entries value="true" />[m
+[31m-      <execution-inputs />[m
+[31m-    </execution-history>[m
+[31m-    <argument-values-cache />[m
+[31m-  </component>[m
+[31m-  <component name="DBNavigator.Project.ObjectDependencyManager">[m
+[31m-    <last-used-dependency-type value="INCOMING" />[m
+[31m-  </component>[m
+[31m-  <component name="DBNavigator.Project.ObjectQuickFilterManager">[m
+[31m-    <last-used-operator value="EQUAL" />[m
+[31m-    <filters />[m
+[31m-  </component>[m
+[31m-  <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">[m
+[31m-    <recently-used-interfaces />[m
+[31m-  </component>[m
+[31m-  <component name="DBNavigator.Project.Settings">[m
+[31m-    <connections />[m
+[31m-    <browser-settings>[m
+[31m-      <general>[m
+[31m-        <display-mode value="TABBED" />[m
+[31m-        <navigation-history-size value="100" />[m
+[31m-        <show-object-details value="false" />[m
+[31m-      </general>[m
+[31m-      <filters>[m
+[31m-        <object-type-filter>[m
+[31m-          <object-type name="SCHEMA" enabled="true" />[m
+[31m-          <object-type name="USER" enabled="true" />[m
+[31m-          <object-type name="ROLE" enabled="true" />[m
+[31m-          <object-type name="PRIVILEGE" enabled="true" />[m
+[31m-          <object-type name="CHARSET" enabled="true" />[m
+[31m-          <object-type name="TABLE" enabled="true" />[m
+[31m-          <object-type name="VIEW" enabled="true" />[m
+[31m-          <object-type name="MATERIALIZED_VIEW" enabled="true" />[m
+[31m-          <object-type name="NESTED_TABLE" enabled="true" />[m
+[31m-          <object-type name="COLUMN" enabled="true" />[m
+[31m-          <object-type name="INDEX" enabled="true" />[m
+[31m-          <object-type name="CONSTRAINT" enabled="true" />[m
+[31m-          <object-type name="DATASET_TRIGGER" enabled="true" />[m
+[31m-          <object-type name="DATABASE_TRIGGER" enabled="true" />[m
+[31m-          <object-type name="SYNONYM" enabled="true" />[m
+[31m-          <object-type name="SEQUENCE" enabled="true" />[m
+[31m-          <object-type name="PROCEDURE" enabled="true" />[m
+[31m-          <object-type name="FUNCTION" enabled="true" />[m
+[31m-          <object-type name="PACKAGE" enabled="true" />[m
+[31m-          <object-type name="TYPE" enabled="true" />[m
+[31m-          <object-type name="TYPE_ATTRIBUTE" enabled="true" />[m
+[31m-          <object-type name="ARGUMENT" enabled="true" />[m
+[31m-          <object-type name="DIMENSION" enabled="true" />[m
+[31m-          <object-type name="CLUSTER" enabled="true" />[m
+[31m-          <object-type name="DBLINK" enabled="true" />[m
+[31m-        </object-type-filter>[m
+[31m-      </filters>[m
+[31m-      <sorting>[m
+[31m-        <object-type name="COLUMN" sorting-type="NAME" />[m
+[31m-        <object-type name="FUNCTION" sorting-type="NAME" />[m
+[31m-        <object-type name="PROCEDURE" sorting-type="NAME" />[m
+[31m-        <object-type name="ARGUMENT" sorting-type="POSITION" />[m
+[31m-      </sorting>[m
+[31m-      <default-editors>[m
+[31m-        <object-type name="VIEW" editor-type="SELECTION" />[m
+[31m-        <object-type name="PACKAGE" editor-type="SELECTION" />[m
+[31m-        <object-type name="TYPE" editor-type="SELECTION" />[m
+[31m-      </default-editors>[m
+[31m-    </browser-settings>[m
+[31m-    <navigation-settings>[m
+[31m-      <lookup-filters>[m
+[31m-        <lookup-objects>[m
+[31m-          <object-type name="SCHEMA" enabled="true" />[m
+[31m-          <object-type name="USER" enabled="false" />[m
+[31m-          <object-type name="ROLE" enabled="false" />[m
+[31m-          <object-type name="PRIVILEGE" enabled="false" />[m
+[31m-          <object-type name="CHARSET" enabled="false" />[m
+[31m-          <object-type name="TABLE" enabled="true" />[m
+[31m-          <object-type name="VIEW" enabled="true" />[m
+[31m-          <object-type name="MATERIALIZED VIEW" enabled="true" />[m
+[31m-          <object-type name="NESTED TABLE" enabled="false" />[m
+[31m-          <object-type name="COLUMN" enabled="false" />[m
+[31m-          <object-type name="INDEX" enabled="true" />[m
+[31m-          <object-type name="CONSTRAINT" enabled="true" />[m
+[31m-          <object-type name="DATASET TRIGGER" enabled="true" />[m
+[31m-          <object-type name="DATABASE TRIGGER" enabled="true" />[m
+[31m-          <object-type name="SYNONYM" enabled="false" />[m
+[31m-          <object-type name="SEQUENCE" enabled="true" />[m
+[31m-          <object-type name="PROCEDURE" enabled="true" />[m
+[31m-          <object-type name="FUNCTION" enabled="true" />[m
+[31m-          <object-type name="PACKAGE" enabled="true" />[m
+[31m-          <object-type name="TYPE" enabled="true" />[m
+[31m-          <object-type name="TYPE ATTRIBUTE" enabled="false" />[m
+[31m-          <object-type name="ARGUMENT" enabled="false" />[m
+[31m-          <object-type name="DIMENSION" enabled="false" />[m
+[31m-          <object-type name="CLUSTER" enabled="false" />[m
+[31m-          <object-type name="DBLINK" enabled="true" />[m
+[31m-        </lookup-objects>[m
+[31m-        <force-database-load value="false" />[m
+[31m-        <prompt-connection-selection value="true" />[m
+[31m-        <prompt-schema-selection value="true" />[m
+[31m-      </lookup-filters>[m
+[31m-    </navigation-settings>[m
+[31m-    <dataset-grid-settings>[m
+[31m-      <general>[m
+[31m-        <enable-zooming value="true" />[m
+[31m-        <enable-column-tooltip value="true" />[m
+[31m-      </general>[m
+[31m-      <sorting>[m
+[31m-        <nulls-first value="true" />[m
+[31m-        <max-sorting-columns value="4" />[m
+[31m-      </sorting>[m
+[31m-      <tracking-columns>[m
+[31m-        <columnNames value="" />[m
+[31m-        <visible value="true" />[m
+[31m-        <editable value="false" />[m
+[31m-      </tracking-columns>[m
+[31m-    </dataset-grid-settings>[m
+[31m-    <dataset-editor-settings>[m
+[31m-      <text-editor-popup>[m
+[31m-        <active value="false" />[m
+[31m-        <active-if-empty value="false" />[m
+[31m-        <data-length-threshold value="100" />[m
+[31m-        <popup-delay value="1000" />[m
+[31m-      </text-editor-popup>[m
+[31m-      <values-list-popup>[m
+[31m-        <show-popup-button value="true" />[m
+[31m-        <element-count-threshold value="1000" />[m
+[31m-        <data-length-threshold value="250" />[m
+[31m-      </values-list-popup>[m
+[31m-      <general>[m
+[31m-        <fetch-block-size value="100" />[m
+[31m-        <fetch-timeout value="30" />[m
+[31m-        <trim-whitespaces value="true" />[m
+[31m-        <convert-empty-strings-to-null value="true" />[m
+[31m-        <select-content-on-cell-edit value="true" />[m
+[31m-        <large-value-preview-active value="true" />[m
+[31m-      </general>[m
+[31m-      <filters>[m
+[31m-        <prompt-filter-dialog value="true" />[m
+[31m-        <default-filter-type value="BASIC" />[m
+[31m-      </filters>[m
+[31m-      <qualified-text-editor text-length-threshold="300">[m
+[31m-        <content-types>[m
+[31m-          <content-type name="Text" enabled="true" />[m
+[31m-          <content-type name="Properties" enabled="true" />[m
+[31m-          <content-type name="XML" enabled="true" />[m
+[31m-          <content-type name="DTD" enabled="true" />[m
+[31m-          <content-type name="HTML" enabled="true" />[m
+[31m-          <content-type name="XHTML" enabled="true" />[m
+[31m-          <content-type name="Java" enabled="true" />[m
+[31m-          <content-type name="SQL" enabled="true" />[m
+[31m-          <content-type name="PL/SQL" enabled="true" />[m
+[31m-          <content-type name="Groovy" enabled="true" />[m
+[31m-          <content-type name="AIDL" enabled="true" />[m
+[31m-          <content-type name="YAML" enabled="true" />[m
+[31m-          <content-type name="Manifest" enabled="true" />[m
+[31m-        </content-types>[m
+[31m-      </qualified-text-editor>[m
+[31m-      <record-navigation>[m
+[31m-        <navigation-target value="VIEWER" />[m
+[31m-      </record-navigation>[m
+[31m-    </dataset-editor-settings>[m
+[31m-    <code-editor-settings>[m
+[31m-      <general>[m
+[31m-        <show-object-navigation-gutter value="false" />[m
+[31m-        <show-spec-declaration-navigation-gutter value="true" />[m
+[31m-        <enable-spellchecking value="true" />[m
+[31m-        <enable-reference-spellchecking value="false" />[m
+[31m-      </general>[m
+[31m-      <confirmations>[m
+[31m-        <save-changes value="false" />[m
+[31m-        <revert-changes value="true" />[m
+[31m-      </confirmations>[m
+[31m-    </code-editor-settings>[m
+[31m-    <code-completion-settings>[m
+[31m-      <filters>[m
+[31m-        <basic-filter>[m
+[31m-          <filter-element type="RESERVED_WORD" id="keyword" selected="true" />[m
+[31m-          <filter-element type="RESERVED_WORD" id="function" selected="true" />[m
+[31m-          <filter-element type="RESERVED_WORD" id="parameter" selected="true" />[m
+[31m-          <filter-element type="RESERVED_WORD" id="datatype" selected="true" />[m
+[31m-          <filter-element type="RESERVED_WORD" id="exception" selected="true" />[m
+[31m-          <filter-element type="OBJECT" id="schema" selected="true" />[m
+[31m-          <filter-element type="OBJECT" id="role" selected="true" />[m
+[31m-          <filter-element type="OBJECT" id="user" selected="true" />[m
+[31m-          <filter-element type="OBJECT" id="privilege" selected="true" />[m
+[31m-          <user-schema>[m
+[31m-            <filter-element type="OBJECT" id="table" selected="true" />[m
+[31m-            <filter-element type="OBJECT" id="view" selected="true" />[m
+[31m-            <filter-element type="OBJECT" id="materialized view" selected="true" />[m
+[31m-            <filter-element type="OBJECT" id="index" selected="true" />[m
+[31m-            <filter-element type="OBJECT" id="constraint" selected="true" />[m
+[31m-            <filter-element type="OBJECT" id="trigger" selected="true" />[m
+[31m-            <filter-element type="OBJECT" id="synonym" selected="false" />[m
+[3
